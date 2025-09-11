@@ -1,0 +1,44 @@
+header {
+    background-color: #c72862; text-align: center; padding: 20px; margin-bottom: 40px; font-family: 'Courier New', Courier, monospace; 
+}
+
+
+h1{
+    color: #fff;
+}
+
+img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+.podeTerMaisDeUm { 
+    width: 200px;
+    border-radius: 0px;
+}
+
+
+
+body{
+    background-color: #edb9cc;
+     text-align: center;
+}
+
+section{
+    background-color:#fff; max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 20px; border-radius: 8px;;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace
+}
+p {
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+ul{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace
+    
+}
