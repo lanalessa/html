@@ -1,0 +1,28 @@
+a {
+    background-color: lightblue;
+    padding: 7px;
+    text-decoration: none;
+    border: 7px;
+    color: black;
+
+}
+
+img{
+    opacity: 0.5; /* valores entre 0 e 1*/
+    transform: scale(2); /*aumenta a escala*/
+}
+
+a:hover {
+    background-color: cyan; /*só qnd passar o mouse*/
+    color: red;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+p:hover{
+    color: green;
+}
+
+img:hover{
+    opacity: 1;
+}
