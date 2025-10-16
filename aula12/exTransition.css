@@ -1,0 +1,197 @@
+header {
+    background-color:rgb(172, 5, 5); text-align: center; padding: 20px; margin-bottom: 40px ; 
+}
+
+h1{
+    color: #fff;
+}
+
+button{
+    display: block;
+    margin: 30px 0;
+    width: 200px;
+    height: 100px;
+    
+}
+
+
+.transition{
+    background-color:  rgb(172, 5, 5);
+    transition: background-color 3s ease;
+}
+
+
+.transition:hover{
+    background-color: rgb(98, 187, 190);
+}
+
+/*--------------------- 02 ---------------------------*/
+
+.aumento{
+
+    width: 200px;
+    height: 100px;
+   transition: 5s ease;
+   transition: 5s ease;
+   background-color:  rgb(172, 5, 5);
+   
+
+}
+
+.aumento:hover {
+    width: 250px;
+    height: 150px;
+}
+
+/*------------------------ 03 --------------------------*/
+
+.delay{
+
+   background-color: rgb(172, 5, 5);
+   color: white;
+   border-color: rgb(0, 0, 0);
+   transition: background-color 0.5s ease;
+
+}
+
+.delay:hover {
+   
+    background-color: rgb(98, 187, 190);
+    color: black;
+    border-color: rgb(9, 132, 136);
+}
+/*------------------------- 04 ---------------------------*/
+.noticia {
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    height: 170px;
+    box-shadow: 10px;
+    border-radius: 30px;
+    background-color: rgb(168, 168, 255);
+}
+
+.noticia {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 180px;
+    box-shadow: 10px;
+    border-radius: 30px;
+    background-color: rgb(172, 5, 5);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     transition: ease 5s;
+     box-shadow: 0px 1px 15px black;
+     text-align: center;
+}
+
+.imagem22 {
+    margin: 10px;
+    border-radius: 30px;
+    width: 200px;
+    height: 150px;
+}
+
+.noticia:hover {
+        width: 600px;
+        box-shadow: 0px 1px 35px black;
+        background-color: rgb(172, 5, 5) ;
+}
+
+/*------------------------- 05 ----------------------------*/
+.p1:hover{
+    color:  rgb(172, 5, 5);
+    font-size: 25px;
+    transition-delay: color 3s ease;
+
+}
+
+.p2:hover{
+    color:  rgb(172, 5, 5);
+    font-size: 25px;
+    transition-delay: color 3s ease;
+
+}
+
+.p3:hover{
+    color:  rgb(172, 5, 5);
+    font-size: 25px;
+    transition-delay: color 3s ease;
+
+}
+
+/*------------------------- 06 ----------------------------*/
+.img-wrap{
+  width:300px;
+  height:200px;
+  overflow:hidden;
+  border-radius:8px;
+  box-shadow:0 6px 16px rgba(16,24,40,0.06);
+  
+}
+.zoom-img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transform:scale(1);
+  transition: transform 320ms ease;
+
+  
+}
+.img-wrap:hover .zoom-img{
+  transform:scale(1.12);
+}
+
+
+/*------------------------- 07 ----------------------------*/
+.topo{
+  background:rgb(172, 5, 5)
+}
+
+.menu{
+  display:flex;
+  gap:18px;
+  max-width:1000px;
+  margin:0 auto;
+  padding:12px 16px;
+  align-items:center;
+}
+.menu a{
+  color:#333;
+  text-decoration:none;
+  position:relative;
+  padding:6px 2px;
+  transition: color 200ms ease;
+  color: white;
+}
+.menu a::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  height:2px;
+  width:0%;
+  background:#0077cc;
+  transition: width 220ms ease;
+}
+.menu a:hover{
+  color:#0077cc;
+}
+.menu a:hover::after{
+  width:100%;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    }
+    
+
+
+
+
