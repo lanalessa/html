@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     width: 150px;
     height: 150px;
@@ -36,3 +37,43 @@ body{
     position: sticky;
     top: 0;
 }
+=======
+div{
+    width: 150px;
+    height: 150px;
+}
+
+.caixa1{
+background-color:red
+/*position: static; position padrao*/
+top: 50px;
+left: 50px;
+z-index: 1
+}
+
+
+.caixa2{
+background-color:blue
+position:absolute;
+top: 150px;
+left: 400px;
+
+}
+
+
+.caixa3{
+background-color:green
+position: fixed;
+bottom: 20px;
+right: 20px;
+}
+
+body{
+    height: 200vh;/*vh (altura total da tela) e vw (largura total da tela)*/
+}
+
+.caixa1{
+    position: sticky;
+    top: 0;
+}
+>>>>>>> cb9d236914ad29b0d433006041352a91b560cfa6
