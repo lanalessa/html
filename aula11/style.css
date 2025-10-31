@@ -1,0 +1,42 @@
+header {
+    background-color: rgb(112, 6, 161); text-align: center; padding: 20px; margin-bottom: 40px; font-family: 'Courier New', Courier, monospace; 
+    color: white;
+}
+
+section {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 50px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    text-align: center; padding: 20px; margin-bottom: 40px; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgba(112, 6, 161);
+    color: white;
+    text-align: center; padding: 20px; margin-bottom: 40px; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 20px;
+}
+
+td {
+    font-size: 12px;
+}
+
+.aprovado {
+    color: green;
+    font-weight: bold;
+}
+
