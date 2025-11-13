@@ -1,0 +1,57 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+h2{
+    color: white;
+}
+    body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+/* --- Exercício 1: Filtros --- */
+
+.filtros img {
+    width: 150px;
+    margin: 10px;
+}
+
+/* Aplicando filtros */
+.f1 { filter: grayscale(100%); }
+.f2 { filter: sepia(100%); }
+.f3 { filter: invert(100%); }
+.f4 { filter: blur(4px); }
+.f5 { filter: brightness(150%); }
+.f6 { filter: contrast(200%); }
+
+/* --- Exercício 2: Hover com aumento --- */
+
+.hover-img {
+    width: 200px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.hover-img:hover {
+    filter: brightness(120%);
+    transform: scale(1.1);
+}
+
+/* --- Exercício 3: Galeria com filtros removidos ao passar o mouse --- */
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 700px;
+}
+
+.galeria img {
+    width: 100%;
+    filter: grayscale(100%) blur(3px);
+    transition: 0.3s;
+}
+
+.galeria img:hover {
+    filter: none;
+}
